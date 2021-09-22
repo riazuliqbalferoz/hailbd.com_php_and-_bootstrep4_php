@@ -1,0 +1,145 @@
+.top-nav {
+  background-color: #3c8dad;
+}
+.top-nav .disabled {
+  color: white;
+}
+.top-nav a {
+  color: white;
+}
+.top-nav .right i {
+  background-color: rgba(255, 255, 255, 0.322);
+  font-size: 0.8rem;
+  width: 30px;
+  padding: 10px;
+  height: 30px;
+}
+.top-nav .right i:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+}
+.top-nav .btn-light {
+  color: #3c8dad;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.navbar-nav > li.nav-item.active > a.nav-link {
+  border-bottom: 3px solid #3c8dad;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 500;
+}
+
+.navbar-brand {
+  font-weight: 500;
+  color: black;
+}
+
+header .carousel-inner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+header .carousel-caption {
+  top: 55%;
+  transform: translateY(-50%);
+}
+header .carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-backdrop {
+  opacity: 0.8 !important;
+}
+
+.projects h2 {
+  font-weight: 700;
+}
+.projects hr {
+  border: 1px solid black;
+  width: 20vh;
+}
+.projects .project-card .card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.projects .card-text {
+  font-weight: 700;
+}
+.projects .text-muted {
+  font-size: 1.1rem;
+  line-height: 0;
+}
+.projects .nav-tabs {
+  border: none;
+}
+.projects .nav-tabs .nav-link {
+  border: none;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.projects .nav-tabs .active {
+  border-bottom: 3px solid #3c8dad;
+}
+
+.work_area .overlay-color {
+  background-color: rgba(0, 0, 0, 0.192);
+}
+.work_area h2 {
+  font-weight: 700;
+}
+.work_area hr {
+  border: 1px solid black;
+  width: 20vh;
+}
+.work_area .work-area-body i {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.teams h2 {
+  font-weight: 700;
+}
+.teams hr {
+  border: 1px solid black;
+  width: 20vh;
+}
+.teams .management .card-img-top {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background-color: black;
+  font-weight: normal;
+}
+footer .social-icon i {
+  padding: 10px;
+  min-width: 35px;
+  max-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  font-size: 14px;
+}
+footer hr {
+  background-color: white;
+}
+footer .bottom-footer {
+  font-size: 0.9rem;
+}/*# sourceMappingURL=home.css.map */

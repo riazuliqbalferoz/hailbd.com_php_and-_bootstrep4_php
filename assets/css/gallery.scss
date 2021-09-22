@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+        
+.top-nav{
+    background-color: #3c8dad;
+    .disabled{
+        color: white
+    }
+    a{
+        color: white;
+    }
+    .right{
+        i{
+            background-color: rgba(255, 255, 255, 0.322);
+            font-size: .8rem;
+            width: 30px;
+            padding: 10px;
+            height: 30px;
+        }
+        i:hover{
+            background-color: rgba(255, 255, 255, 0.541);
+        }
+    }
+
+}
+
+.navbar-nav>li.nav-item.active>a.nav-link{
+    border-bottom: 3px solid #3c8dad;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-weight: 500;
+    color: black;
+}
+
+// nav finish
+
+
+.modal-backdrop
+{
+    opacity:0.8 !important;
+}
+
+// header
+header{
+    .black-effect{
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    hr{
+        border: 1px solid white;
+        width: 10vh;
+    }
+}
+
+main{
+    .row{
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .card-img-overlay{
+            opacity: 0;
+            transform: scaleY(.5);
+            transition: .1s;
+            background-color: rgba(0, 0, 0, 0.541);
+            h3{
+                border: 3px solid white;
+            }
+        }
+        .card:hover{
+            .card-img-overlay{
+                opacity: 1;
+                transition: 0.2s linear;
+                transform: scaleY(1);
+            }
+        }
+    }
+}
+
+// footer
+footer{
+    background-color: black;
+    font-weight: normal;
+
+    .social-icon{
+        i{
+            padding: 10px;
+            min-width: 35px;
+            max-height: 35px;
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid white;
+            font-size: 14px;
+        }
+    }
+    hr{
+        background-color: white;
+    }
+
+    .bottom-footer{
+        font-size: .9rem;
+    }
+}

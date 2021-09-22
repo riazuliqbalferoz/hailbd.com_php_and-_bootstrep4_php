@@ -1,0 +1,186 @@
+.top-nav{
+    background-color: #3c8dad;
+    .disabled{
+        color: white
+    }
+    a{
+        color: white;
+    }
+    .right{
+        i{
+            background-color: rgba(255, 255, 255, 0.322);
+            font-size: .8rem;
+            width: 30px;
+            padding: 10px;
+            height: 30px;
+        }
+        i:hover{
+            background-color: rgba(255, 255, 255, 0.541);
+        }
+    }
+
+    // new
+    .btn-light{
+        color:#3c8dad;
+        font-size: .8rem;
+        font-weight: 700;
+    }
+
+}
+
+.navbar-nav>li.nav-item.active>a.nav-link{
+    border-bottom: 3px solid #3c8dad;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-weight: 500;
+    color: black;
+}
+
+// nav finish
+
+header{
+    .carousel-inner{
+        img{
+             object-fit: cover;
+             object-position: center;
+        }
+    }
+    .carousel-caption {
+        top: 55%;
+        transform: translateY(-50%);
+    }
+    .carousel-item:after {
+        content:"";
+        display:block;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        background:rgba(0, 0, 0, 0.5);
+    }
+
+}
+
+.modal-backdrop
+{
+    opacity:0.8 !important;
+}
+
+
+//////////////////// main
+
+
+
+// project
+.projects{
+    h2{
+        font-weight: 700;
+    }
+    hr{
+        border: 1px solid black;
+        width: 20vh;
+    }
+    .project-card{
+        .card-img-top{
+            object-fit: cover;
+        }
+    }
+    .card-text{
+        font-weight: 700;
+    }
+    .text-muted{
+        font-size: 1.1rem;
+        line-height: 0;
+    }
+    .nav-tabs{
+        border: none;
+        .nav-link{
+            border: none;
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            font-size: 1.1rem;
+        }
+        .active{
+            border-bottom: 3px solid #3c8dad;
+        }
+    }
+}
+
+// work area
+.work_area{
+    // background-image: url("../image/work_area.jpg");
+    // background-attachment: fixed;
+    .overlay-color{
+        background-color: rgba(0, 0, 0, 0.192);
+    }
+     h2{
+        font-weight: 700;
+    }
+    hr{
+        border: 1px solid black;
+        width: 20vh;
+    }
+
+    .work-area-body{
+        i{
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            font-size: 1.2rem;
+            padding: 5px;
+        }
+    }
+}
+
+
+// teams
+.teams{
+    h2{
+        font-weight: 700;
+    }
+    hr{
+        border: 1px solid black;
+        width: 20vh;
+    }
+    .management{
+       .card-img-top{
+            object-fit: cover;
+            
+        }
+    }
+}
+
+// main finish
+
+// footer
+footer{
+    background-color: black;
+    font-weight: normal;
+
+    .social-icon{
+        i{
+            padding: 10px;
+            min-width: 35px;
+            max-height: 35px;
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid white;
+            font-size: 14px;
+        }
+    }
+    hr{
+        background-color: white;
+    }
+
+    .bottom-footer{
+        font-size: .9rem;
+    }
+}
